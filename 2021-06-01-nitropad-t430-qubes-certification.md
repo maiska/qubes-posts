@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "NitroPad X230 passes hardware certification for Qubes 4.0!"
+title: "NitroPad T430 passes hardware certification for Qubes 4.0!"
 categories: announcements
 author: Andrew David Wong
-image: /attachment/site/nitropad-x230.jpg
+image: /attachment/site/nitropad-t430.jpg
 ---
 
-It is our pleasure to announce that the [NitroPad X230] has become the
-second [Qubes-certified Laptop][laptop] for Qubes 4.0! This makes
-[Nitrokey] the first vendor in Europe to have a product pass Qubes
-hardware certification.
+_**Update:** Please be advised that the i7-3632QM option is **not** compatible with Qubes OS, as it does not support VT-d. The option specifically tested by the Qubes team is the i5-3320M._
+
+It is our pleasure to announce that the [NitroPad T430] has become the
+third [Qubes-certified Laptop][laptop] for Qubes 4.0! This makes
+[Nitrokey] the first vendor to have *two* products that pass Qubes
+hardware certification, the other being the [NitroPad X230].
 
 
 ## What is Qubes Certified Hardware?
@@ -28,19 +30,18 @@ ensure that no regressions are introduced.
 
 It is important to note, however, that Qubes Hardware Certification
 certifies only that a particular hardware *configuration* is *supported*
-by Qubes. The Qubes OS Project takes no responsibility for any
-manufacturing or shipping processes, nor can we control whether physical
-hardware is modified (whether maliciously or otherwise) *en route* to
-the user. (However, see below for information about how this risk is
-mitigated.)
+by Qubes. The Qubes OS Project takes no responsibility for any vendor's
+manufacturing, shipping, payment, or other practices, nor can we control
+whether physical hardware is modified (whether maliciously or otherwise)
+*en route* to the user. (However, see below for information about how
+this risk is mitigated.)
 
 
-## About the NitroPad X230
+## About the NitroPad T430
 
-[![nitropad-x230.jpg](/attachment/site/nitropad-x230.jpg)][NitroPad X230]
+[![nitropad-t430.jpg](/attachment/site/nitropad-t430.jpg)][NitroPad T430]
 
-The [NitroPad X230] offers users unprecedented control over the security
-of their hardware. Key features include:
+Key features of the [NitroPad T430] include:
 
   - Tamper detection through measured boot with [Coreboot], [Heads], and
     Nitrokey USB hardware, including support for [Anti Evil Maid (AEM)]
@@ -51,30 +52,30 @@ of their hardware. Key features include:
 
   - Included Nitrokey USB key
 
-  - Professional ThinkPad hardware based on the [ThinkPad X230]
+  - Professional ThinkPad hardware based on the [ThinkPad T430]
 
   - Security-conscious shipping to mitigate against third-party
     [interdiction]
 
-For further details, please see the original [NitroPad announcement].
+For further details, please see the [NitroPad T430] product page.
 
 
 ## How to get one
 
-Please see the [NitroPad X230] on the [Nitrokey website][Nitrokey] for
-more information.
+Please see the [NitroPad T430] on the [Nitrokey website][Nitrokey] for
+purchasing information.
 
 
-[NitroPad X230]: https://shop.nitrokey.com/shop/product/nitropad-x230-67
+[NitroPad T430]: https://shop.nitrokey.com/shop/product/nitropad-t430-119
 [Nitrokey]: https://www.nitrokey.com/
 [laptop]: /doc/certified-hardware/#qubes-certified-laptops
+[NitroPad X230]: /doc/certified-hardware/#nitropad-x230
 [Qubes Certified Hardware]: /doc/certified-hardware/
 [requirements]: /doc/certified-hardware/#hardware-certification-requirements
-[ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
+[ThinkPad T430]: https://www.thinkwiki.org/wiki/Category:T430
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/
 [Anti Evil Maid (AEM)]: /doc/anti-evil-maid/
 [Intel Management Engine]: https://libreboot.org/faq.html#intelme
 [interdiction]: https://en.wikipedia.org/wiki/Interdiction
-[NitroPad announcement]: https://www.nitrokey.com/news/2020/nitropad-secure-laptop-unique-tamper-detection
 
